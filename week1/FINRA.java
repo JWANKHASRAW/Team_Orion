@@ -1,3 +1,5 @@
+package week1;
+
 public class FINRA {
 
 
@@ -7,7 +9,7 @@ public class FINRA {
             boolean by3 = i % 3 == 0;
             boolean by5 = i % 5 == 0;
             if (by3 && by5) {
-                System.out.println("FINRA");
+                System.out.println("week1.FINRA");
             } else if (by3) {
                 System.out.println("FIN");
             } else if (by5) {

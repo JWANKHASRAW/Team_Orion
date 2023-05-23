@@ -1,3 +1,5 @@
+package week1;
+
 public class OddEven {
 
     public static void Identify(int num){
