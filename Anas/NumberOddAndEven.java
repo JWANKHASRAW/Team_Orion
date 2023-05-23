@@ -7,7 +7,7 @@ public class NumberOddAndEven {
     }
 
     public static void main(String[] args) {
-        identify(6);
+        identify(5);
     }
 
 }
