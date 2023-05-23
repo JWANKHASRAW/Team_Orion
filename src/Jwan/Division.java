@@ -4,19 +4,23 @@ public class Division {
 
     public static void main(String[] args) {
 
-        division(10,5);
+        division(8,4);
     }
 
-    public static void division(int dividend, int divisor){
+    public static void division(double dividend, double divisor){
 
-        int result=0;
+
+        double result=0;
         if(divisor ==0){
             throw new ArithmeticException("Divisor can't be zero");
         }
+
         for (int i = 0; i <= dividend; i++) {
-            if (divisor*i == dividend){
-                result+=i;
+            if (dividend >= divisor){
+                dividend= dividend - divisor;
+                result++;
             }
+
         }
         System.out.println(result);
 
