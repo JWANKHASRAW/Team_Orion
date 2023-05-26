@@ -1,4 +1,4 @@
-package Anas;
+package Anas.week1;
 
 public class NumberOddAndEven {
 

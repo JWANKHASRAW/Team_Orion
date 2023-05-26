@@ -1,4 +1,4 @@
-package Anas;
+package Anas.week1;
 
 public class DivideWithoutOperator {
     public static void divider(int dividend,int divisor){
