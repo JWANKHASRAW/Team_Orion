@@ -3,7 +3,6 @@ package week2;
 public class SwapNums {
     public static void main(String[] args) {
 
-        public static void main(String[] args) {
 
             int x = 10;
             int y = 20;
@@ -14,10 +13,6 @@ public class SwapNums {
 
             System.out.println(" x = " + x + "\n y = " + y);
 
-
-
-
-        }
 
 
     }
