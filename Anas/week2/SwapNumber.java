@@ -14,6 +14,7 @@ public class SwapNumber {
         int a = number.get(0);
         int b = number.get(1);
         System.out.println("a: "+ a+" b: "+b);
+
         Collections.swap(number,0,1);
 
         a = number.get(0);
