@@ -10,9 +10,14 @@ public class SwapNumber {
 
     public static void main(String[] args) {
         ArrayList<Integer> number = new ArrayList<>(Arrays.asList(1,6));
-        System.out.println("ArrayList<Integer> number print: " + number);//[1, 6]
 
+        int a = number.get(0);
+        int b = number.get(1);
+        System.out.println("a: "+ a+" b: "+b);
         Collections.swap(number,0,1);
-        System.out.println("Collections.swap(number,0,1): =  " +number);//[6, 1]
+
+        a = number.get(0);
+        b = number.get(1);
+        System.out.println("a: "+ a+" b: "+b);
     }
 }
