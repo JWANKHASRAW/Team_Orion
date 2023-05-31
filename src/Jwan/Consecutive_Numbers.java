@@ -3,9 +3,9 @@ package Jwan;
 public class Consecutive_Numbers {
     public static void main(String[] args) {
 
-        int num1=30;
+        int N=30;
 
-        for (int i = 1; i < num1; i++) {
+        for (int i = 1; i < N; i++) {
 
             if (i %2 ==0 && i %3 ==0 && i%5==0){
                 System.out.println("CodilityTestCoders");
