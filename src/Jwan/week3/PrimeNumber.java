@@ -21,6 +21,8 @@ public class PrimeNumber {
 
         System.out.println(isPrime);
 
+        input.close();
+
 
     }
 }
