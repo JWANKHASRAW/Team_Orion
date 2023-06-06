@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PrimeNumber {
     public static void main(String[] args) {
 
-        System.out.println("Please enter a number");//prime number is a whole number that their multiples are only the number itself and one.
+        System.out.println("Please enter a number"); //prime number is a whole number that their multiples are only the number itself and one.
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
 
