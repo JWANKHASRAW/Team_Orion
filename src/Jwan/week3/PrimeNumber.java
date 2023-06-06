@@ -11,7 +11,7 @@ public class PrimeNumber {
 
         boolean isPrime = true;
         int i =2;
-        while(i <= number/2){  //
+        while(i <= number/i){  //
             if(number % i ==0){
                 isPrime = false;
                 break;
@@ -29,4 +29,5 @@ public class PrimeNumber {
 
 /*
 Write a method that can check if a number is prime or not
+// Prime number: Is a whole number greater than 1 that cannot be exactly divided by any whole number other than itself.
  */
