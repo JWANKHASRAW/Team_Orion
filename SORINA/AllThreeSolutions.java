@@ -1,5 +1,6 @@
-public class SorinaAllThreeSolutions {
+package SORINA;
 
+public class AllThreeSolutions {
     public static void main(String[] args) {
 
         int number = 5;
@@ -8,7 +9,6 @@ public class SorinaAllThreeSolutions {
         boolean isOdd = !isEven;
         System.out.println(number + " is even number: " + isEven );
         System.out.println(number + " is odd number: " + isOdd );
-
 
     }
 }

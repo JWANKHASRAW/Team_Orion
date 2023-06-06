@@ -1,4 +1,6 @@
-public class IsPrimeSorina {
+package SORINA;
+
+public class IsPrime {
     public static void main(String[] args) {
         int k = 5;
         boolean isPrime = true;
