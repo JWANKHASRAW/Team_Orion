@@ -24,6 +24,6 @@ public class ReverseNegativeNumber3 {
     }
 
     public static void main(String[] args) {
-        Reverser(-80001); //0008
+        Reverser(-9990); //0008
     }
 }
