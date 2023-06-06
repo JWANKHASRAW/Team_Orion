@@ -1,15 +1,17 @@
 public class IsPrimeSorina {
-    public static boolean isPrime(int number) {
-        if (number <= 1) {
-            return false;
-        }
-
-        for (int i = 2; i * i <= number; i++) {
-            if (number % i == 0) {
-                return false; // Number is divisible, hence not prime
+    public static void main(String[] args) {
+        int k = 5;
+        boolean isPrime = true;
+        for (int i = 2; i < k; i++) {
+            if (k % i == 0) {
+                isPrime = false;
+                break;
             }
         }
-
-        return true; // Number is prime
+        if (isPrime) {
+            System.out.println("number " + k + " is prime");
+        } else {
+            System.out.println("number " + k + " is not prime");
+        }
     }
 }
