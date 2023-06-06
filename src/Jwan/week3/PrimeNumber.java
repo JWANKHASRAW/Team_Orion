@@ -27,7 +27,3 @@ public class PrimeNumber {
     }
 }
 
-/*
-Write a method that can check if a number is prime or not
-// Prime number: Is a whole number greater than 1 that cannot be exactly divided by any whole number other than itself.
- */
