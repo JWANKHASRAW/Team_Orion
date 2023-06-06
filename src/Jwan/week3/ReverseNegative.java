@@ -11,16 +11,16 @@ public class ReverseNegative {
 
 
 
-    public static int reverseNegative(int positive ){
+    public static int reverseNegative(int number ){
 
-        if(positive <0){
-            positive= positive * -1;
+        if(number <0){
+            number= number * -1;
         }
 
         int reverse = 0;
-        while (positive != 0) { //523
-            reverse = reverse * 10 + positive % 10; // A:(0*10 + 523%10 = 3--> 0+3 reverse=3) B:(3*10 + 52%10-->2 30+2=32) C:(32*10 + 5-->325
-            positive = positive / 10; // A:(523/10 --> 52), B:(52%10 -->2), C:( 5/10 -->0)
+        while (number != 0) { //523
+            reverse = reverse * 10 + number % 10; // A:(0*10 + 523%10 = 3--> 0+3 reverse=3) B:(3*10 + 52%10-->2 30+2=32) C:(32*10 + 5-->325
+            number = number / 10; // A:(523/10 --> 52.3), B:(52/10 -->5.2), C:( 5/10 -->0.52)
         }
 
         return reverse;
