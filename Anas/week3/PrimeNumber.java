@@ -4,7 +4,7 @@ public class PrimeNumber {
     //write a method that can check if a number is prime or not
     public static void Prim(int number) {
         int notPrime = 0;
-        for (int i = 1; i < number; i++) {//i=0 give exception
+        for (int i = 1; i < number; i++) {//i=0 gives exception
             if (number % i == 0) {
                 notPrime++;//marker
             }
