@@ -14,9 +14,9 @@ public class ReverseNegative {
         int reverse = 0;
         int lastDigit = 0;
         while (number >= 1) {
-            lastDigit = number % 10; // gives you last digit
+            lastDigit = number % 10; // gives us last digit
             reverse = reverse * 10 + lastDigit;
-            number = number / 10; // get rid of last digit  return isNegative == true? reverse*-1 : reverse; } }
+            number = number / 10; // for to get rid of last digit
 
         }
         return reverse*-1;
@@ -26,3 +26,7 @@ public class ReverseNegative {
         System.out.println(reverseInteger(-123));
     }
 }
+/*
+2. Numbers -- Reverse negative number
+Write a return method that can reverse negative number and return it as int
+ */
