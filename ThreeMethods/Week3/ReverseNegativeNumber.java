@@ -7,7 +7,7 @@ public class ReverseNegativeNumber {
 
         // num1 * (-1)
 
-        int neg = -6;
+        int neg = -61;
         int pos = neg * (-1);
 
         System.out.println(neg + " is negative number");
