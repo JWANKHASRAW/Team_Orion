@@ -10,7 +10,7 @@ public class FrequencyOfCharacters {
 //        Ex: FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Ente");
+        System.out.println("Enter a string");
         String str = input.next();
 
         String frequencyOfChars = "";
