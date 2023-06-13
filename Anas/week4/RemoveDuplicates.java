@@ -14,13 +14,13 @@ public class RemoveDuplicates {
         String str = input.next();
 
         /**Using String:*/
-//        String dubLess ="";
-//        for (int i = 0; i < str.length(); i++) {
-//            if(!dubLess.contains(str.charAt(i)+"")){
-//                dubLess+=str.charAt(i);
-//            }
-//        }
-//        System.out.println(dubLess);
+        String dupLess ="";
+        for (int i = 0; i < str.length(); i++) {
+            if(!dupLess.contains(str.charAt(i)+"")){
+                dupLess+=str.charAt(i);
+            }
+        }
+        System.out.println(dupLess);
 
 
         /**Using Collections:*/
