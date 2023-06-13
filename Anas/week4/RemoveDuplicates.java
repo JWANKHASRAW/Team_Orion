@@ -32,7 +32,8 @@ public class RemoveDuplicates {
         String dubsRemoved = dubsRemover.toString().
                 replace("[","").
                 replace(",","").
-                replace("]","").replace(" ","");
+                replace("]","").
+                replace(" ","");
 
         System.out.println(dubsRemoved);
 
