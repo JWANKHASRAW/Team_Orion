@@ -25,17 +25,17 @@ public class RemoveDuplicates {
 
         /**Using Collections:*/
 
-        Set<String> dubsRemover = new TreeSet<>();
+        Set<String> dupsRemover = new TreeSet<>();
         for (int i = 0; i < str.length(); i++) {
-            dubsRemover.add(""+str.charAt(i));
+            dupsRemover.add(""+str.charAt(i));
         }
-        String dubsRemoved = dubsRemover.toString().
+        String dupsRemoved = dupsRemover.toString().
                 replace("[","").
                 replace(",","").
                 replace("]","").
                 replace(" ","");
 
-        System.out.println(dubsRemoved);
+        System.out.println(dupsRemoved);
 
         input.close();
     }
