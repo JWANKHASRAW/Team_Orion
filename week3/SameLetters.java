@@ -2,7 +2,8 @@ package week3;
 
 import java.util.Arrays;
 
-public class SameLetters { public static boolean ifSameLetter(String a, String b) {
+public class SameLetters
+{ public static boolean ifSameLetter(String a, String b) {
     if (a == null) {
         return b == null;
     } else if (b == null) {
@@ -18,6 +19,6 @@ public class SameLetters { public static boolean ifSameLetter(String a, String b
 
 
     public static void main(String[] args) {
-        System.out.println(ifSameLetter("acdfgh","hgdfcA"));
+        System.out.println(ifSameLetter("LARDS","ARDLT"));
     }
 }

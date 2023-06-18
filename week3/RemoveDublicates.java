@@ -2,7 +2,9 @@ package week3;
 
 import java.util.LinkedHashSet;
 
-public class RemoveDublicates {public static String removeDuplicates(String str) {
+public class RemoveDublicates
+{public static String removeDuplicates(String str) {
+
     LinkedHashSet<Character> uniqueCh = new LinkedHashSet<>();  // Created a LinkedHashSet to maintain the order of elements while removing duplicates
 
 
@@ -19,6 +21,6 @@ public class RemoveDublicates {public static String removeDuplicates(String str)
 }
 
     public static void main(String[] args) {
-        System.out.println(removeDuplicates("AAABBBCCC"));
+        System.out.println(removeDuplicates("GHYFHFTGETSGTD"));
     }
 }
