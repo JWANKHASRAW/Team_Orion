@@ -29,7 +29,7 @@ public class SameLetters {
     public static void main(String[] args) {
 
         String word1 = "abc";
-        String word2 = "abb";
+        String word2 = "cab";
 
 
         System.out.println(SameLetters(word1, word2));
