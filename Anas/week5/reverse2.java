@@ -5,8 +5,8 @@ import java.util.Stack;
 public class reverse2 {
     public static void main(String[] args) {
         String str = "ABCD";
-        reverser2(str);
 
+        reverser2(str);
     }
     public static String reverser2(String str){
         String unique ="";
