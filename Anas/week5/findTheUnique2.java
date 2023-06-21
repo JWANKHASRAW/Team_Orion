@@ -12,7 +12,7 @@ public class findTheUnique2 {
         String unique = "";
 
         for (int i = 0; i < str.length(); i++) {
-            /**15 resets right after each iteration of big spoon loop 13*/
+            /**resets right after each iteration of big spoon loop */
             int counter = 0;
             for (int j = 0; j < str.length(); j++) {
                 if (str.charAt(i) == str.charAt(j)) {

@@ -9,12 +9,15 @@ public class findTheUnique {
 
     public static void main(String[] args) {
         String str="AAABBBCCCDEF";
-        char[] chars = str.toCharArray();
 
-        findTheUniqueMethod(chars);
+        System.out.println(
+                findTheUniqueMethod(str)
+        );
     }
 
-    public static void findTheUniqueMethod(char[] chars) {
+    public static String findTheUniqueMethod(String str) {
+        char[] chars = str.toCharArray();
+        String unique="";
         for (char each : chars) {
             int count = 0;
             for (char other : chars) {
@@ -23,10 +26,10 @@ public class findTheUnique {
                 }
             }
             if (count == 1) {
-                System.out.print(each);
+                unique+=each;
             }
         }
-
+        return unique;
 
     }
 }
