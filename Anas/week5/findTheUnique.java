@@ -26,7 +26,7 @@ public class findTheUnique {
                 }
             }
             if (count == 1) {
-                unique+=each;
+                unique+=each ;
             }
         }
         return unique;
