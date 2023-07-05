@@ -1,6 +1,6 @@
 package Anas.week6;
 
-public class sumOfDigitsInAString {
+public class SumOfDigitsInAString {
     public static void main(String[] args) {
         String nums = "1he1llo1";
         System.out.println(
