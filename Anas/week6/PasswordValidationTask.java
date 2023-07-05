@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Condition;
 
 public class PasswordValidationTask {
     public static void main(String[] args) {
-        String password = " ";
+        String password = "Aa1!/9zZ";
         System.out.println(
                 validPwd(password)
         );
@@ -25,7 +25,7 @@ public class PasswordValidationTask {
 
             //*Condition 1:
             //6 characters no space
-            if (password.length() >= 6) {
+            if (password.length() >= 6 && selectedCharacter!=' ') {
                 length++;
             }
             //no space*/
