@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Condition;
 
 public class PasswordValidationTask {
     public static void main(String[] args) {
-        String password = "Aa1!/9zZ";
+        String password = " ";
         System.out.println(
                 validPwd(password)
         );

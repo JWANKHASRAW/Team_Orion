@@ -9,7 +9,7 @@ public class FindMaximum {
     }
 
     public static int max(int [] numbers){
-        int max =0;
+        int max =Integer.MIN_VALUE;
         for (int i = 0; i <numbers.length; i++) {
             if(numbers[i]>max){
                 max=numbers[i];
