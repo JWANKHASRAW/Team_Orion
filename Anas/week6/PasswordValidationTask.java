@@ -54,6 +54,7 @@ public class PasswordValidationTask {
             isValid = true;
         }
 
+        /**Errors*/
         if (length < 1) {
             System.err.println("Password MUST be at least have 6 characters.");
         }
